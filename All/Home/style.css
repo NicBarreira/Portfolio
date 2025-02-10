@@ -7,7 +7,7 @@ body {
     background-size:cover ;
     background-position: center;
     background-blend-mode: darken;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,15 +20,6 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
-}
-
-#img-perfil {
-    margin-bottom: 10%;
-    border-radius: 50%;
-    width: 130px; 
-    height: 130px;
-    object-fit: cover;
-
 }
 
 #p1 {

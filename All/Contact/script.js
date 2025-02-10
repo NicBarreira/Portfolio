@@ -11,3 +11,6 @@ fetch('../Navbar/index.html')
     .catch(error => {
         console.error('Erro ao carregar a Navbar:', error);
     });
+
+
+    
