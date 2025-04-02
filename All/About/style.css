@@ -23,11 +23,24 @@ body {
 }
 
 #img-perfil {
-    border-radius: 50%;
+    border-radius: 50%; 
     width: 130px; 
     height: 130px;
     object-fit: cover;
+    margin-top: 50px;
+}
 
+#about{
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#saiba-mais{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #p1 {
@@ -58,14 +71,18 @@ body {
     filter: invert(0.5);
 }
 
-#btn-contact{
+#btn-contact {
     background-color: white;
     border-radius: 6px;
     padding: 12px;
     text-decoration: none;
+    font-weight: normal;
+    transition: letter-spacing 0.3s ease, font-weight 0.3s ease, transform 0.3s ease;
 }
 
-#btn-contact:hover{
+#btn-contact:hover {
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 2px; 
+    transform: scale(1.05);
 }
